@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  workspace:
+    build: .
+    command: sls offline -o 0.0.0.0 --printOutput
+    volumes:
+      - .:/code
+    tty: true
+    ports:
+      - "3000:3000"
+    environment:
+      TEST_ENV: ${TEST_ENV}
+      AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY_ID}
+      AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_ACCESS_KEY}      
