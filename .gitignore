@@ -1,5 +1,4 @@
 .env
-# Serverless directories
 .serverless
 node_modules/
 __pycache__/

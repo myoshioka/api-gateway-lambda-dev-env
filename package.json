@@ -1,7 +1,7 @@
 {
-  "name": "localinsight-run-batch",
+  "name": "api-gateway-lambda-dev-env",
   "version": "1.0.0",
-  "description": "localinsight-run-batch",
+  "description": "api-gateway-lambda-dev-env",
   "main": "index.js",
   "dependencies": {
     "serverless-offline": "^4.9.4"
