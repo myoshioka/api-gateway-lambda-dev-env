@@ -4,7 +4,7 @@
   "description": "api-gateway-lambda-dev-env",
   "main": "index.js",
   "dependencies": {
-    "serverless-offline": "^4.9.4"
+    "serverless-offline": "^12.0.3"
   },
   "devDependencies": {
     "serverless-python-requirements": "^4.3.0"
